@@ -1,7 +1,17 @@
 name: Erai-Raws
-pattern: (?<=^|[\s.-])Erai-Raws\b
+pattern: \[Erai-Raws]
 description: ''
 tags:
 - Release Group
 - Anime
-tests: []
+tests:
+- expected: true
+  id: 1
+  input: '[Erai-raws] Towa no Yugure - 01 [1080p ADN WEB-DL AVC AAC][MultiSub][0A2D9C61]'
+  lastRun: '2025-10-04T00:23:16.320827'
+  matchSpan:
+    end: 11
+    start: 0
+  matchedContent: '[Erai-raws]'
+  matchedGroups: []
+  passes: true

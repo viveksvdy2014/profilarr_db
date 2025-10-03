@@ -1,0 +1,36 @@
+name: Erai-raws
+description: ''
+tags:
+- Release Group Tier
+conditions:
+- name: Erai-raws
+  negate: false
+  pattern: Erai-Raws
+  required: true
+  type: release_group
+tests:
+- conditionResults:
+  - matches: false
+    name: Erai-raws
+    negate: false
+    pattern: Erai-Raws
+    required: true
+    type: release_group
+  expected: false
+  id: 1
+  input: '[Ironclad] Tate no Yuusha no Nariagari - S04 [1080p.AV1] | The Rising of
+    the Shield Hero (Dual-Audio, Multi-Subs) (Batch)'
+  lastRun: '2025-10-04T00:24:01.825809'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Erai-raws
+    negate: false
+    pattern: Erai-Raws
+    required: true
+    type: release_group
+  expected: true
+  id: 3
+  input: '[Erai-raws] Towa no Yugure - 01 [1080p ADN WEB-DL AVC AAC][MultiSub][0A2D9C61]'
+  lastRun: '2025-10-04T00:24:01.825809'
+  passes: true
