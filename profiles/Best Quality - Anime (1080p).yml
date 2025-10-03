@@ -6,7 +6,7 @@ tags:
 - Best Quality
 upgradesAllowed: true
 minCustomFormatScore: 100
-upgradeUntilScore: 0
+upgradeUntilScore: 4000
 minScoreIncrement: 200
 custom_formats:
 - name: 1080p Remux

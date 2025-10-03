@@ -6,7 +6,7 @@ tags:
 - Archive
 upgradesAllowed: true
 minCustomFormatScore: 100
-upgradeUntilScore: 0
+upgradeUntilScore: 3000
 minScoreIncrement: 200
 custom_formats:
 - name: 1080p Bluray
