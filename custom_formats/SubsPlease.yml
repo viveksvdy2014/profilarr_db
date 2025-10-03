@@ -1,0 +1,37 @@
+name: SubsPlease
+description: ''
+tags:
+- Release Group Tier
+conditions:
+- name: SubsPlease
+  negate: false
+  pattern: SubsPlease
+  required: true
+  type: release_group
+tests:
+- conditionResults:
+  - matches: false
+    name: SubsPlease
+    negate: false
+    pattern: SubsPlease
+    required: true
+    type: release_group
+  expected: false
+  id: 1
+  input: '[Ironclad] Tate no Yuusha no Nariagari - S04 [1080p.AV1] | The Rising of
+    the Shield Hero (Dual-Audio, Multi-Subs) (Batch)'
+  lastRun: '2025-10-04T00:22:38.590234'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: SubsPlease
+    negate: false
+    pattern: SubsPlease
+    required: true
+    type: release_group
+  expected: true
+  id: 3
+  input: '[SubsPlease] Saigo ni Hitotsu dake Onegai Shitemo Yoroshii Deshou ka - 02
+    (1080p) [AA3B99A0].mkv'
+  lastRun: '2025-10-04T00:22:38.590234'
+  passes: true
