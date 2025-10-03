@@ -1,0 +1,25 @@
+name: Anime Digital Network (ADN)
+pattern: \bADN\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests:
+- expected: true
+  id: 1
+  input: '[Erai-raws] Towa no Yugure - 00 [480p ADN WEB-DL AVC AAC][MultiSub][5B6852DA]'
+  lastRun: '2025-10-04T00:10:10.370537'
+  matchSpan:
+    end: 41
+    start: 38
+  matchedContent: ADN
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 2
+  input: '[ToonsHub] SANDA S01E01 1080p AMZN WEB-DL DDP2.0 H.264 (Dual-Audio, Multi-Subs)'
+  lastRun: '2025-10-04T00:10:10.370537'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

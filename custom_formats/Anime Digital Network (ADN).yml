@@ -1,0 +1,36 @@
+name: Anime Digital Network (ADN)
+description: ''
+tags:
+- Streaming Service
+conditions:
+- name: Crunchyroll Regex
+  negate: false
+  pattern: Anime Digital Network (ADN)
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: Crunchyroll Regex
+    negate: false
+    pattern: Anime Digital Network (ADN)
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: '[Erai-raws] Towa no Yugure - 01 [1080p ADN WEB-DL AVC AAC][MultiSub][0A2D9C61]'
+  lastRun: '2025-10-04T00:34:36.706796'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: Crunchyroll Regex
+    negate: false
+    pattern: Anime Digital Network (ADN)
+    required: true
+    type: release_title
+  expected: false
+  id: 2
+  input: '[SubsPlease] Saigo ni Hitotsu dake Onegai Shitemo Yoroshii Deshou ka - 02
+    (1080p) [AA3B99A0].mkv'
+  lastRun: '2025-10-04T00:34:36.706796'
+  passes: true
