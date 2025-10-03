@@ -20,12 +20,14 @@ custom_formats:
 - name: AV1
   score: 400
 - name: AMZN
-  score: 200
-- name: Anime Digital Network (ADN)
-  score: 200
+  score: 300
 - name: Crunchyroll
-  score: 200
+  score: 300
+- name: HIDIVE
+  score: 300
 - name: NF
+  score: 300
+- name: Anime Digital Network (ADN)
   score: 200
 - name: x265
   score: 200

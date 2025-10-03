@@ -18,19 +18,23 @@ custom_formats:
 - name: AV1
   score: 400
 - name: AMZN
-  score: 200
-- name: Anime Digital Network (ADN)
-  score: 200
+  score: 300
 - name: Crunchyroll
-  score: 200
+  score: 300
+- name: HIDIVE
+  score: 300
 - name: NF
-  score: 200
+  score: 300
 - name: x265
   score: 200
 - name: 1080p WEB-DL
   score: 100
-custom_formats_radarr: []
-custom_formats_sonarr: []
+custom_formats_radarr:
+- name: Anime Digital Network (ADN)
+  score: 200
+custom_formats_sonarr:
+- name: Anime Digital Network (ADN)
+  score: 100
 qualities:
 - id: 10
   name: Bluray-1080p
