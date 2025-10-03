@@ -1,14 +1,16 @@
-name: Archive - Anime (1080p)
+name: Best Quality - Anime (1080p)
 description: ''
 tags:
 - Anime
 - 1080p
-- Archive
+- Best Quality
 upgradesAllowed: true
 minCustomFormatScore: 100
 upgradeUntilScore: 0
 minScoreIncrement: 200
 custom_formats:
+- name: 1080p Remux
+  score: 2000
 - name: 1080p Bluray
   score: 1000
 - name: Erai-raws
@@ -32,6 +34,10 @@ custom_formats:
 custom_formats_radarr: []
 custom_formats_sonarr: []
 qualities:
+- id: 8
+  name: Remux-1080p
+- id: 2
+  name: BR-Disk
 - id: 10
   name: Bluray-1080p
 - id: 9
@@ -39,7 +45,7 @@ qualities:
 - id: 12
   name: HDTV-1080p
 upgrade_until:
-  id: 10
-  name: Bluray-1080p
-  description: 1080p Blu-ray video encoded with lossy compression
+  id: 8
+  name: Remux-1080p
+  description: 1080p Blu-ray disc content remuxed into a playable file format
 language: must_japanese
